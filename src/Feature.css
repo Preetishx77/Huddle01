@@ -1,0 +1,30 @@
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .child1 {
+    
+    flex: 0 1 300px;
+    
+    flex: 1 1 500px;
+    text-align: center;
+    margin-top: 5%;
+    
+  }
+  #heading1{
+      font-weight: bolder;
+      font-size: 4.5rem;
+    
+  }
+  .child2 {
+    
+    flex: 0 1 300px;
+    
+    flex: 1 1 500px;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 7%;
+    
+  }

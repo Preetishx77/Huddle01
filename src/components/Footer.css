@@ -1,0 +1,79 @@
+.stay_in_touch {
+    padding: 3rem 7vw;
+    text-align: center;
+    margin: 5vh 7vw;
+    background: url(https://beta.huddle01.com/static/media/subscribe_div.12c8bda7.png);
+}
+.contact_description {
+    padding-bottom: 4vh;
+}
+.contact_description>h2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -1.6px;
+    background: linear-gradient(107.72deg,#1a26c8 -54.49%,#243cff 17.32%,#d62ec0 86.99%,#f37777 151.29%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.contact_description>p {
+    color: #cdcdcd;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    max-width: 33vw;
+    display: block;
+    margin: auto;
+}
+.btn-subscribe {
+    border-radius: 4px;
+    color: #fcfcfc;
+    padding: .75rem 2rem;
+    letter-spacing: .0125em;
+    cursor: pointer;
+    border: none;
+    transition: .3s;
+    font-weight: 600;
+    outline: none;
+    background: linear-gradient(
+101.76deg
+,#243cff -3.15%,#d62ec0 55.05%,#f37777 110.87%);
+
+}
+.input {
+    height: 100%;
+    padding: .8rem .75rem;
+    background: #161616;
+    border: none;
+    -webkit-backdrop-filter: blur(43px);
+    backdrop-filter: blur(43px);
+    margin: 1rem 2rem;
+    outline: none;
+    color: #fff;
+    border-radius: 4px;
+}
+.footer_m {
+    padding: 5vh 7vw;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    -webkit-align-items: center;
+    align-items: center;
+    margin-top: 10vh;
+
+}
+.landing__foot__icons img {
+    margin-right: 1rem;
+    cursor: pointer;
+    vertical-align: middle;
+}
+@media screen and (max-width: 800px){
+.footer_m {
+    grid-template-columns: 1fr;
+    align-self: center;
+    place-items: center;
+    grid-gap: 1.25rem;
+}}

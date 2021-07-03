@@ -1,0 +1,96 @@
+a, a:focus, a:active {
+    text-decoration: none;
+    color: grey;
+    font-weight: bolder;
+    font-size: 17px;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+    transition-delay:0.1s;
+}
+.nav .current{
+    color: white;
+}
+.button1{
+   
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+border: 2.2px solid rgb(44, 98, 224);
+padding: 9px 23px 9px 23px;
+border-radius: 80px;
+font-weight: bolder;
+background-image: linear-gradient(101.76deg,#243cff -3.15%,#d62ec0 55.05%,#f37777 110.87%)
+
+    
+}
+.parent1 {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .child1 {
+    
+    flex: 0 1 300px;
+    
+    flex: 1 1 500px;
+    text-align: center;
+    margin-top: 3%;
+    
+  }
+  #heading{
+      font-weight: bold;
+      font-size: 4.5rem;
+  }
+  .child2 {
+    
+    flex: 0 1 300px;
+    
+    flex: 1 1 500px;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 7%;
+    
+  }
+  
+  .btn-grad {background-image: linear-gradient(101.76deg,#243cff -3.15%,#d62ec0 55.05%,#f37777 110.87%)}
+  .btn-grad {
+     margin: 10px;
+     padding: 15px 45px;
+     text-align: center;
+     font-weight: bolder;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+    
+     border-radius: 10px;
+     display: block;
+   }
+
+   .btn-grad:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+   .separator {
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .separator::before,
+  .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid grey;
+  }
+  
+  .separator:not(:empty)::before {
+    margin-right: .25em;
+  }
+  
+  .separator:not(:empty)::after {
+    margin-left: .25em;
+  }
+  
