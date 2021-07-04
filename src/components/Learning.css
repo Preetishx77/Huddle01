@@ -1,24 +1,17 @@
 .parent {
     display: flex;
     flex-wrap: wrap;
-    background: linear-gradient(
--165deg
-,rgba(22,22,22,.8),rgba(0,0,0,.8));
-    
+    background: linear-gradient(-165deg,rgba(22,22,22,.8),rgba(0,0,0,.8));
   }
   
   .child1 {
-    
     flex: 0 1 300px;
-    
     flex: 1 1 500px;
     text-align: center;
     margin-top: 5%;
     
   }
-  .btn-grad {background: linear-gradient(
-    101.76deg
-    ,#243cff -3.15%,#d62ec0 55.05%,#f37777 110.87%);}
+  .btn-grad {background: linear-gradient( 101.76deg ,#243cff -3.15%,#d62ec0 55.05%,#f37777 110.87%);}
   .btn-grad {
      margin: 10px;  
      padding: .7rem 2rem;
@@ -27,14 +20,12 @@
      transition: 0.5s;
      background-size: 200% auto;
      color: white;            
-    
-     border-radius: 10px;
+    border-radius: 10px;
      display: block;
-
-   }
+}
 
    .btn-grad:hover {
-     background-position: right center; /* change the direction of the change here */
+     background-position: right center; 
      color: #fff;
      text-decoration: none;
    }
@@ -134,7 +125,7 @@
     width: 100%;
     margin: 1rem auto;}
     .social__box {
-        /* display: -webkit-flex; */
+        
         display: flex;
         cursor: pointer;
         -webkit-align-items: center;
