@@ -76,4 +76,12 @@
     align-self: center;
     place-items: center;
     grid-gap: 1.25rem;
-}}
+}
+#h2{
+    font-size: 2rem;
+}
+.contact_description>p {
+    max-width: 80%;
+    font-size: 1.25rem;
+}
+}

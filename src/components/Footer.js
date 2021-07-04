@@ -6,9 +6,9 @@
     function Footer() {
         return (
             <div>
-                <div className="stay_in_touch container ml-auto mr-auto">
+                <div className="stay_in_touch container ml-auto mr-auto mx-xs-5">
                     <div className="contact_description">
-                        <h2>Stay in Touch</h2>
+                        <h2 id="h2">Stay in Touch</h2>
                         <p>Drop your email below to get updates from Huddle01 straight to your inbox</p>
 
                     </div>

@@ -7,7 +7,7 @@ function Learning() {
         <>
         <div className="parent my-3">
         <div className="child2"> 
-        <div className="py-5 px-5"><h2 className="py-3" id="" style={{fontWeight:"bold",marginTop:"10%",background: "linear-gradient(107.72deg,#1a26c8 -54.49%,#243cff 17.32%,#d62ec0 86.99%,#f37777 151.29%)",WebkitBackgroundClip: "text",backgroundClip: "text", color: "transparent"}}>
+        <div className="py-5 px-5"><h2 className="py-3" id="h22" style={{fontWeight:"bold",marginTop:"10%",background: "linear-gradient(107.72deg,#1a26c8 -54.49%,#243cff 17.32%,#d62ec0 86.99%,#f37777 151.29%)",WebkitBackgroundClip: "text",backgroundClip: "text", color: "transparent"}}>
             Same E-Learning Experience On Mobile</h2><h5 style={{color:"grey",fontWeight:"lighter"}}><span style={{color: "white",fontWeight: "normal"}}>Classes at your own pace, on the go! Huddle01 is compatible with all smartphones. Now you can continue your e-learning experience anywhere, anytime at your fingertips.</span></h5>
         <h5 style={{color:"white",fontWeight:"bolder"}}>NO INSTALLATION REQUIRED!</h5></div>
         
@@ -23,7 +23,7 @@ function Learning() {
 
             <div>
                 <div className="container"style={{alignItems:"center"}}>
-                    <div className="row px-5 py-5" style={{alignItems:"center"}}>
+                    <div className="row px-5 py-5 py-xs-1" style={{alignItems:"center"}}>
                         <div className="row " >
                         <div className="row underline__text" style={{marginLeft:"35%",width:"100%"}}>
                             <h3 style={{color:"white",fontWeight:"bolder"}} className="">Want More? We got you.</h3>
@@ -34,7 +34,7 @@ function Learning() {
                         <div className="row s1">
                         <div className="col py-4" style={{alignItems:""}}>
                             
-                            <input type="email" placeholder="Enter your email" style={{padding: ".9rem .75rem",borderRadius:"4px",backgroundColor:"#242424",border:"none",letterSpacing: ".0125em",color:"black"}}></input>
+                            <input classname="mx-xs-auto"type="email" placeholder="Enter your email" style={{padding: ".9rem .75rem",borderRadius:"4px",backgroundColor:"#242424",border:"none",letterSpacing: ".0125em",color:"black"}}></input>
                         </div>
                         
                            
@@ -56,14 +56,14 @@ function Learning() {
             <div className="tachyon_container">
                 <div>
                     <div className="tachyon_box">
-                        <img src="https://beta.huddle01.com/static/media/TachyonImg.30a40104.webp" alt="tachy" className="tachyon__img img-fluid"></img>
+                        <img src="https://beta.huddle01.com/static/media/TachyonImg.30a40104.webp" alt="tachy" className="tachyon_img"></img>
 
                     
-                    <div style={{margin: "auto 5rem",display:"block"}}>
-                        <h3 style={{fontWeight:"700",color:"white"}}>We were a part of Tachyon 2020 Batch!
+                    <div style={{display:"block"}}>
+                        <h3 id="tachy_h3" style={{fontWeight:"700",color:"white"}}>We were a part of Tachyon 2020 Batch!
 
                         </h3>
-                        <h4 style={{color:"white",fontWeight:"normal"}}>
+                        <h4 style={{color:"white",fontWeight:"normal"}} id="tachy_h4">
                         Tachyon is an accelerator for early stage blockchain and Web 3.0 startups.
                         </h4>
                         </div>

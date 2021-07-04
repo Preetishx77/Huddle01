@@ -76,9 +76,15 @@
     place-items: center;
     padding: 4rem;
     background-size: cover;
+    .tachyon__box>div {
+    margin: auto 5rem;
+}
    
 }
-.tachyon__img {
+.tachyon_box>div {
+    margin: auto 5rem;
+}
+.tachyon_img {
     width: 100%;
 }
 .tachyon__investor {
@@ -154,14 +160,44 @@
         margin-left: 35%
     }
     @media screen and (max-width: 800px){
-.tachyon__img {
+.tachyon_img {
     width: 100%;
+    vertical-align: center;
+    
+    align-self: center;
 
 }
 .row .underline__text{
     margin-left: 0.5%;
+    font-size: 2rem;
 
 }
 .row .s1{
     margin-left: 0%;
-}}
+}
+.tachyon_box{
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+#tachy_h3{
+    font-size: 1.25rem;
+    margin-top: 10%;
+
+}
+#tachy_h4{
+    font-size: 1.25rem;
+}
+.tachyon_box>div {
+    margin: 0
+}
+.tachyon__investor h2{
+    font-size: 1.3rem;
+}
+.tachyon_container{
+    margin-top: -1%;
+}
+#h22{
+    font-size: 2rem;
+}
+
+}
