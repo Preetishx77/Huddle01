@@ -7,10 +7,12 @@ import Nav from './components/Nav'
 
 function App() {
   return (
-  <><Nav/>
+  <>       
+          <Nav/>
           <Feature/>
           <Learning/>
-          <Footer></Footer></>
+          <Footer/>
+ </>
   );
 }
 
