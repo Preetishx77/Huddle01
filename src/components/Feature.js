@@ -6,7 +6,14 @@ function Feature() {
                      <div class="parent mb-5 px-3">
                      <div class="child1 ml-5"><img src="https://beta.huddle01.com/static/media/AnimUI.a6e86eee.webp" className="img-fluid" alt="alt"></img></div>
             <div class="child2 pt-3 mr-5 mx-xs-0" style={{marginRight:"25%"}}> 
-            <div className="heading pt-5 mx-5 mx-xs-1"><h5 style={{color: "grey"}}>Features</h5><br/><h1 class="py-3" id="heading1" style={{fontWeight: "bolder",fontSize: "2.25rem",  background: "linear-gradient(107.72deg,#1a26c8 -54.49%,#243cff 17.32%,#d62ec0 86.99%,#f37777 151.29%)",WebkitBackgroundClip: "text",backgroundClip: "text", color: "transparent"}}>
+            <div className="heading pt-5 mx-5 mx-xs-1"><h5 style={{color: "grey"}}>Features</h5><br/><h1 class="py-3" id="heading1" 
+          style={{fontWeight: "bolder",
+                  fontSize: "2.25rem",  
+                   background: "linear-gradient(107.72deg,#1a26c8 -54.49%,#243cff 17.32%,#d62ec0 86.99%,#f37777 151.29%)",
+                   WebkitBackgroundClip: "text",
+                    backgroundClip: "text", 
+        color: "transparent"
+        }}>
                 E-Learning Experience <br />
 Reimagined with Huddle 01</h1><h5 style={{color:"white",fontWeight:"normal",wordSpacing:"3px"}}>"Our goal is to inspire students to learn new things every day! Huddle01 empowers teachers and students with E-learning tools that encourages students to learn new things every day and enables teachers to energize their classes.”</h5></div>
             
