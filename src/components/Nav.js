@@ -35,7 +35,7 @@ function Nav() {
       </nav>
       <section>
           
-          <div className="parent1 ">
+          <div className="parent1">
             <div className="child2"> 
             <div className="heading"><h1 id="heading" style={{background: "linear-gradient(107.72deg,#1a26c8 -54.49%,#243cff 17.32%,#d62ec0 86.99%,#f37777 151.29%)",WebkitBackgroundClip: "text",backgroundClip: "text", color: "transparent"}}>Meeting <br className="break"/> Without Limits</h1><h4 className="mx-xs-3 mx-sm-3" style={{color:"grey",fontWeight:"lighter"}} id="h4">Make video conferences engaging for online classrooms <br/> with Huddle 01. <br className="break-phone"/><span className="mx-xs-auto mx-sm-auto" style={{color: "white",fontWeight: "400",textAlign: "center"}}>Talk better. Listen better. Work better.</span></h4></div>
             <div className="py-3"><button className="btn-grad py-3 mx-xs-5 mr-sm-auto">Start Meeting</button></div>
@@ -66,9 +66,7 @@ function Nav() {
                         </div>
 
                 </div>
-
-
-      </section>
+            </section>
             </>
     )
 }
