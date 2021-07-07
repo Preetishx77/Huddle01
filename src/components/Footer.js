@@ -1,7 +1,5 @@
-
-    import './Footer.css'
-
-    import React from 'react'
+import './Footer.css'
+import React from 'react'
     
     function Footer() {
         return (
@@ -16,8 +14,7 @@
                         <form className="form">
                             <input type="text" placeholder="Enter email" className="input"/>
                                 <button type="submit" className="btn-subscribe">Subscribe</button>
-                            
-                        </form>
+                            </form>
                     </div>
                 </div>
 
@@ -33,8 +30,7 @@
                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEESURBVHgB7ZXNEYJADIWzCwVYAiXI3x0r0RLswLUStRM8M4Ad2AIF8OOL4zpclIhw4zsACy/JvOwyUfQiy7LEcZxD13VrLFc0EqVU2rbtOYqiy3PNlzzPDW4HmpZjGIZGIfkOixPNAJxsNCxtaSa45S56ngj1FbQGQRff9yv7Eh3oPgXwfrokBOK93bgfWGmpckTyJ2IHfYqiuMORJ9GKHfSRJmfUt01icJbVt+9D8aMcWMqy9IY0fxWo69ob0gy2yNJvlTSG+cvBUmAp8C5Q0Yy4GDg3yUz45exbkDfVTdMcaT7OOo7jFA+GpsfwDOn//jtY2qJlCY2Hx+pNa22CILjyiwczlG3mydx+agAAAABJRU5ErkJggg==" alt="facebook"></img>
                 </div>
                 </div>
-                
-            </div>
+                </div>
         )
     }
     
